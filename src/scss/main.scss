@@ -1,2 +1,31 @@
 // This is where you can import other stylesheets or write your scss code
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    min-height: 100vh;
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sprite {
+    width: 60px;
+    height: 60px;
+    background-color: darkred;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#formwrapper {
+    background-color: rgba(128, 128, 128, 0.603);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    display: none;
+    form {
+        width: 50%;
+        margin: auto;
+        max-width: 500px;
+    }
+}
